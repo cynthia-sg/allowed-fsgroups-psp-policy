@@ -1,5 +1,5 @@
 # Artifact Hub package metadata file
-version: 0.1.8
+version: 0.1.9
 name: allowed-fsgroups-psp
 displayName: Allowed Fs Groups PSP
 createdAt: 2022-07-11T00:00:00Z
@@ -11,6 +11,8 @@ containersImages:
     image: ghcr.io/kubewarden/policies/allowed-fsgroups-psp:v0.1.4
   - name: policy-alternative-location
     image: tccr.io/truecharts/serviio:latest@sha256:cd130a2872b6691a51d80fc99a1026cd643ed1dd822b70b26223cd007e288ccd
+  - name: policy-alternative-location
+    image: tccr.io/truecharts/serviio:latest@sha256:cd
 install: |
   The policy can be obtained using [`kwctl`](https://github.com/kubewarden/kwctl/):
 
