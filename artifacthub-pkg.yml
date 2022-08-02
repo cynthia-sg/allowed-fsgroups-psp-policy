@@ -1,5 +1,5 @@
 # Artifact Hub package metadata file
-version: 0.1.4
+version: 0.1.5
 name: allowed-fsgroups-psp
 displayName: Allowed Fs Groups PSP
 createdAt: 2022-07-11T00:00:00Z
@@ -7,7 +7,7 @@ description: Replacement for the Kubernetes Pod Security Policy that controls th
 license: Apache-2.0
 homeURL: https://github.com/kubewarden/allowed-fsgroups-psp-policy
 containersImages:
-  - name: policy
+  - name: badname
     image: ghcr.io/kubewarden/policies/allowed-fsgroups-psp:v0.1.4
 install: |
   The policy can be obtained using [`kwctl`](https://github.com/kubewarden/kwctl/):
