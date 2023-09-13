@@ -1,5 +1,5 @@
 # Artifact Hub package metadata file
-version: 0.1.11
+version: 0.1.12
 name: allowed-fsgroups-psp
 displayName: Allowed Fs Groups PSP
 createdAt: 2022-07-11T00:00:00Z
@@ -8,7 +8,7 @@ license: Apache-2.0
 homeURL: https://github.com/kubewarden/allowed-fsgroups-psp-policy
 containersImages:
   - name: policy
-    image: ghcr.io/kubewarden/policies/allowed-fsgroups-psp:v0.1.4
+    image: ghcr.io/kubewarden/policies/allowed-fsgroups-psp:v0.1.10
   - name: policy-alternative-location
     image: docker.io/toolbelt/netcat@sha256:7d921b6d368fb1736cb0832c6f57e426c161593c075847af3378eb3185801cea
 keywords:
