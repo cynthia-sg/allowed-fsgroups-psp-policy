@@ -9,6 +9,8 @@ homeURL: https://github.com/kubewarden/allowed-fsgroups-psp-policy
 containersImages:
   - name: policy
     image: ghcr.io/kubewarden/policies/allowed-fsgroups-psp:v0.1.10
+  - name: ingress
+    image: registry.k8s.io/ingress-nginx/controller:v1.8.2@sha256:74834d3d25b336b62cabeb8bf7f1d788706e2cf1cfd64022de4137ade8881ff2
   - name: policy-alternative-location
     image: docker.io/toolbelt/netcat@sha256:7d921b6d368fb1736cb0832c6f57e426c161593c075847af3378eb3185801cea
 keywords:
